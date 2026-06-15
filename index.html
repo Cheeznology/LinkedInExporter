@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — LinkedIn Exporter</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+      color: #1a1a1a;
+      background: #f7f8fa;
+      padding: 40px 20px;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #fff;
+      border: 1px solid #e2e5ea;
+      border-radius: 12px;
+      padding: 40px 44px;
+    }
+    h1 {
+      font-size: 1.75rem;
+      margin-bottom: 8px;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      color: #666;
+      font-size: 0.9rem;
+      margin-bottom: 32px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #e2e5ea;
+    }
+    h2 {
+      font-size: 1.1rem;
+      margin: 28px 0 10px;
+    }
+    p, li { font-size: 0.95rem; margin-bottom: 12px; }
+    ul { padding-left: 22px; margin-bottom: 16px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      margin: 12px 0 20px;
+    }
+    th, td {
+      border: 1px solid #e2e5ea;
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: #f7f8fa; font-weight: 600; }
+    .footer {
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid #e2e5ea;
+      font-size: 0.85rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Privacy Policy</h1>
+    <p class="meta">
+      <strong>LinkedIn Exporter</strong><br />
+      Last updated: June 15, 2026<br />
+      Developer: Cheeznology
+    </p>
+
+    <h2>Overview</h2>
+    <p>
+      LinkedIn Exporter is a Chrome extension that reads profile information from
+      LinkedIn pages you are already viewing and lets you copy or export that data
+      on your device. There is no backend server. We do not sell user data.
+    </p>
+
+    <h2>Data we access</h2>
+    <p>When you open the extension on a LinkedIn profile page (<code>linkedin.com/in/...</code>), it may read visible page content including:</p>
+    <ul>
+      <li>Full name</li>
+      <li>Headline</li>
+      <li>Location</li>
+      <li>Current company</li>
+      <li>Profile URL</li>
+      <li>Profile photo URL</li>
+    </ul>
+    <p>The extension only runs when you interact with it on a page you have open. It does not browse LinkedIn in the background.</p>
+
+    <h2>Data we store</h2>
+    <p>The following is stored locally in your browser using <code>chrome.storage.local</code>:</p>
+    <ul>
+      <li>Export history (up to 50 profiles)</li>
+      <li>Multi-profile queue (up to 100 entries)</li>
+      <li>Tags and notes you add</li>
+      <li>Export timestamps</li>
+    </ul>
+    <p>This data stays on your device. The developer does not receive it.</p>
+
+    <h2>Data we do not collect</h2>
+    <ul>
+      <li>Passwords or LinkedIn login credentials</li>
+      <li>Messages or personal communications</li>
+      <li>Browsing history outside the active profile tab you use with the extension</li>
+      <li>Keystrokes, clicks, or mouse movement</li>
+      <li>Data sent to external servers</li>
+      <li>Remote code execution</li>
+    </ul>
+
+    <h2>Permissions</h2>
+    <table>
+      <tr>
+        <th>Permission</th>
+        <th>Why it is used</th>
+      </tr>
+      <tr>
+        <td><code>storage</code></td>
+        <td>Save export history, queue, tags, and notes locally</td>
+      </tr>
+      <tr>
+        <td><code>activeTab</code></td>
+        <td>Access the current tab when you open the popup</td>
+      </tr>
+      <tr>
+        <td><code>https://www.linkedin.com/*</code></td>
+        <td>Read visible profile fields on LinkedIn profile pages</td>
+      </tr>
+    </table>
+
+    <h2>Data sharing</h2>
+    <p>We do not sell, rent, or transfer your data to third parties.</p>
+
+    <h2>Children's privacy</h2>
+    <p>This extension is not directed at children under 13.</p>
+
+    <h2>Changes</h2>
+    <p>This policy may be updated if the extension changes. The date at the top will reflect any revision.</p>
+
+    <h2>Contact</h2>
+    <p>Privacy questions: use the support contact listed on the Chrome Web Store listing.</p>
+
+    <p class="footer">
+      LinkedIn Exporter is not affiliated with, endorsed by, or sponsored by LinkedIn Corporation.
+    </p>
+  </div>
+</body>
+</html>
